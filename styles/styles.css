@@ -24,7 +24,9 @@
 .profile__contacts {}
 
 .languages {}
-.languages__title {}
+.languages__title {
+    font-size: large;
+}
 .languages__list {}
 .languages__item {}
 
