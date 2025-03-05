@@ -1,0 +1,74 @@
+.page {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+.resume {
+    display: flex;
+    background-color: #fff;
+    max-width: 1200px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.resume__sidebar {
+    width: 30%;
+    background-color: #e6e6e6;
+    padding: 20px;
+}
+
+.profile {}
+.profile__name {}
+.profile__contacts {}
+
+.languages {}
+.languages__title {}
+.languages__list {}
+.languages__item {}
+
+.skills {}
+.skills__subtitle {}
+.skills__list {}
+.skills__item {}
+
+.resume__main {
+    width: 70%;
+    padding: 20px;
+}
+
+.education {}
+.education__title {} 
+.education__subtitle {}
+.education__disc {}
+
+.courses {}
+.courses__title {}
+.courses__list {}
+
+.experience {
+    margin-bottom: 30px;
+}
+
+.experience__title {}
+
+.experience__item {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 5px;
+}
+
+.experience__subtitle{
+    text-decoration: underline;
+    padding: 0 15px;
+}
+
+.experience__time {
+    text-align: right;
+}
+
+.about {}
+.about__title {}
+.about__subtitle {}
