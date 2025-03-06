@@ -11,28 +11,47 @@
     <div class="resume">
         <aside class="resume__sidebar">
             <!-- Мои данные -->
-            <section class="profile">
+            <section class="profile__lefthead">
                 <img class="profile__photo" src="photo/photo1.png" alt="Фото">
-                <h1 class="profile__name">Кирилл Сербин</h1>
                 <div class="profile__contacts">
-                    Frontend-разработчик
+                    <h2 class="contacts__title">КОНТАКТЫ</h2>
+                    <div class="contacts__phone">
+                        <img src="photo/phone.png" alt="Телефон" class="phone"> +7-923-433-18-16 
+                        <img src="photo/whatsapp.png" alt="WhatsApp" class="whatsapp"> 
+                        <img src="photo/telegram.png" alt="Телеграм" class="telegram">
+                    </div>
+                    <div class="contacts__mail">       
+                        <img src="photo/mail.png" alt="Почта" class="mail"> serbin_kirill1807@mail.ru
+                    </div> 
+                    <div class="contacts__telegram">       
+                        <a href="https://t.me/madrid_ka" class="tg_link">
+                        <img src="photo/telegram.png" alt="Телеграм" class="telegram"> @madrid_ka</a>
+                    </div> 
+                    <div class="contacts__github">       
+                        <a href="https://github.com/Madridka" class="git">
+                        <img src="photo/github.png" alt="Гитхаб" class="github"> 
+                            /Madridka</a>
+                    </div> 
                 </div>
                 <!-- Языки -->
                 <div class="languages">
                     <h2 class="languages__title">ЯЗЫКИ</h2>
                     <ul class="languages__list">
-                        <li class="languages__item">Русский</li>
-                        <li class="languages__item">Английский</li>
+                        <li class="languages__item">Русский - navite </li>
+                        <li class="languages__item">Английский - B1</li>
                     </ul>
                 </div>
                 <!-- Скиллы -->
                 <div class="skills">
                     <h2 class="skills__title">НАВЫКИ</h2>
                     <ul class="skills__list">
-                        <li class="skills__item">Работа с HTML, CSS</li>
-                        <li class="skills__item">JavaScript, Python 3.11</li>
-                        <li class="skills__item">Съемка/монтаж видео для видеоблога 
-                            (YouTube/Shorts, TikTok, Instagram reels </li>
+                        <li class="skills__item">HTML, CSS, JavaScript</li>
+                        <li class="skills__item">Python/Django</li>
+                        <li class="skills__item">Borland Deplhi 7, ABC Pascal</li>
+                        <li class="skills__item">Знание системы контроля версий Git</li>
+                        <li class="skills__item">SQLite (на уровне простых запросов в БД)</li>
+                        <li class="skills__item">Adobe Photoshop, Premiere Pro (cъемка/монтаж видео для видеоблога 
+                            (YouTube/Shorts, TikTok, Instagram reels))</li>
                         <li class="skills__item">Опыт работы в нефтегазовой сфере 
                             (более 7 лет на нефтедобыче/нефтепереработке)</li>
                     </ul>
@@ -41,22 +60,17 @@
         </aside>
         <!-- Правая основная часть -->
         <main class="resume__main">
+            <section class="profile__righthead">
+                <div class="profile__name">Сербин Кирилл</div>
+                <div class="profile__job">Frontend-разработчик</div>
+            </section>
             <!-- Высшее образование -->
              <section class="education">
                 <h2 class="education__title">ОБРАЗОВАНИЕ</h2>
-                <h3 class="education__subtitle"><u>Высшее:</u> Томский Политехнический университет 
-                    (2016 год выпуска)</h3>
+                <h3 class="education__subtitle">НИ Томский политехнический университет, Томск (2016г.)</h3>
                 <div class="education__disc">
                     Институт природных ресурсов, Химическая технология топлива и химическая кибернетика
                 </div>
-             </section>
-
-             <!-- Курсы -->
-             <section class="courses">
-                <h2 class="courses__title">ДОПОЛНИТЕЛЬНЫЕ КУРСЫ</h2>
-                <ul class="courses__list">
-                    <!-- Список курсов -->
-                </ul>
              </section>
 
              <!-- Опыт работы -->
@@ -89,9 +103,33 @@
                 </article>
              </section>
 
+
+            <!-- Курсы -->
+            <section class="pet_projects">
+            <h2 class="projects__title">PET-ПРОЕКТЫ</h2>
+                <ul class="projects__list">
+                    <li class="projects__item">
+                        <a href="https://github.com/Madridka/Django_webbooks" class="git_django_books">
+                        Проект на Django - "Мир книг". <img src="photo/github.png" alt="Гитхаб" class="github"></a>
+                    </li> 
+
+                    <li class="projects__item">
+                        <a href="https://github.com/Madridka/django_film" class="git_django_films">
+                        Проект на Django - "Мир книг". <img src="photo/github.png" alt="Гитхаб" class="github"></a>
+                    </li>
+
+                    <li class="projects__item">
+                        <a href="https://github.com/Madridka/TG_bot_benzin" class="git_tg_bot_benzin">
+                        Бот в Телеграм для расчета расхода бензина (работа с БД) <img src="photo/github.png" alt="Гитхаб" class="github"></a>
+                    </li>
+                    <li class="projects__item">Нейрокомментинг постов в Телеграм</li>
+                    <li class="projects__item">Авторепостинг постов в Телеграм</li>
+            </ul>
+            </section>
+
              <section class="about">
                 <h2 class="about__title">ОБО МНЕ</h2>
-                <h4 class="about__subtitle">Я длительное время работал вахтами в нефтегазовой отрасли 
+                <h4 class="about__subtitle">Длительное время работал вахтами в нефтегазовой отрасли 
                     оператором технологических установок. Меня всегда привлекала профессия IT-специалиста, 
                     и поэтому я решил "выйти из зоны" комфорта, уволиться с вахт и начать обучаться 
                     на Frontend-разработчика в ASAP-Education.</h4>

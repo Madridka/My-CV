@@ -1,8 +1,60 @@
+@media (min-width: 1440px) {
+    body {
+      font-size: 17x;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+  }
+  
+  @media (max-width: 1439px) {
+    body {
+      font-size: 16px;
+      max-width: 1200px;
+    }
+  }
+  
+  @media (max-width: 1199px) {
+    body {
+      font-size: 15px;
+      max-width: 1024px;
+    }
+  }
+  
+  @media (max-width: 1023px) {
+    body {
+      font-size: 14px;
+      max-width: 750px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    body {
+      font-size: 13px;
+      max-width: 100%;
+      padding: 0 15px;
+    }
+  }
+  
+  @media (max-width: 424px) {
+    body {
+      font-size: 12px;
+      padding: 0 10px;
+    }
+  }
+  
+
+
 .page {
-    font-family: Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #f5f5f5;
     color: #333;
-    line-height: 1.6;
+    line-height: 1.5;
+    font-size: 17px;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
 }
 
 .resume {
@@ -19,9 +71,9 @@
     padding: 20px;
 }
 
-.profile {
+/* .profile_lefthead {} */
 
-}
+/* .profile__righthead {} */
 
 .profile__photo {
     max-width: 200px;
@@ -30,16 +82,33 @@
 }
 
 .profile__name {
-    font-size: 35px;
+    font-size: 55px;
     color: #9e9898;
-    padding: 0;
+    text-transform: uppercase;
+    text-align: center;
+
 }
 
 .profile__contacts {
-    font-size: 25px;
+    font-size: 18px;
+    padding-right: 10px;
+    margin-top: 8px;
 }
 
-.languages {}
+.phone, .whatsapp, .telegram, .mail, .github {
+    height: 20px;
+    width: 20px;
+
+}
+
+.profile__job {
+    text-transform: uppercase;
+    font-size: larger;
+    text-align: center;
+}
+
+
+/* .languages {}
 .languages__title {
 
 }
@@ -48,7 +117,7 @@
 
 .skills {}
 .skills__title {}
-.skills__list {}
+.skills__list {} */
 .skills__item {
     padding: 0 10px;
 }
@@ -58,22 +127,22 @@
     padding: 20px;
 }
 
-.education {}
+/* .education {}
 .education__title {} 
-.education__subtitle {}
-.education__disc {}
 
-.courses {}
-.courses__title {}
-.courses__list {}
+.education__subtitle {}  */
+.education__disc {
+    padding-left: 20px;
+}
+
 
 .experience {
     margin-bottom: 30px;
 }
 
-.experience__title {
+/* .experience__title {
 
-}
+} */
 
 .experience__item {
     display: flex;
@@ -93,14 +162,25 @@
     text-align: right;
 }
 
-.about {}
-.about__title {}
+/* .pet_projects {}
+.projects__title {}
+.projects__list {}  */
+
+.projects__item {
+    list-style-type: square;
+} 
+
+
+/* .about {}
+.about__title {} */
 .about__subtitle {
     text-indent: 20px;
 }
 
-.languages__title, .skills__title, .education__title, .experience__title, .about__title {
+.languages__title, .skills__title, .education__title, .projects__title,
+.experience__title, .about__title, .contacts__title {
     border: 2px solid black;
     /* width: 30%; */
     padding-left: 40px; 
 }
+
