@@ -1,0 +1,182 @@
+@media (max-width: 425px) {
+    body {
+        font-size: 14px;
+    }
+    
+    .container {
+        padding: 10px;
+    }
+    
+    .header {
+        font-size: 12px;
+        text-align: center;
+    }
+    
+    .menu {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .menu a {
+        display: block;
+        padding: 10px;
+        text-align: center;
+        background: #007bff;
+        color: white;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+    
+    .menu a:hover {
+        background: #0056b3;
+    }
+    
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+.page {
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.5;
+    font-size: 17px; */
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+.resume {
+    display: flex;
+    background-color: #fff;
+    max-width: 1200px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.resume__sidebar {
+    width: 30%;
+    background-color: #e6e6e6;
+    padding: 20px;
+}
+
+/* .profile_lefthead {} */
+
+/* .profile__righthead {} */
+
+.profile__photo {
+    max-width: 200px;
+    max-height: 200px;
+    padding-left: 50px;
+}
+
+.header__name {
+    font-size: 55px;
+    color: #9e9898;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.profile__contacts {
+    font-size: 18px;
+    padding-right: 10px;
+    margin-top: 8px;
+}
+
+.phone, .whatsapp, .telegram, .mail, .github {
+    height: 20px;
+    width: 20px;
+}
+
+.header__job {
+    text-transform: uppercase;
+    font-size: larger;
+    text-align: center;
+}
+
+
+/* .languages {}
+.languages__title {
+
+}
+.languages__list {}
+.languages__item {}
+
+.skills {}
+.skills__title {}
+.skills__list {} */
+.skills__item {
+    padding: 0 10px;
+}
+
+.resume__main {
+    width: 70%;
+    padding: 20px;
+}
+
+/* .education {}
+.education__title {} 
+
+.education__subtitle {}  */
+.education__disc {
+    padding-left: 20px;
+}
+
+
+.experience {
+    margin-bottom: 30px;
+}
+
+/* .experience__title {
+
+} */
+
+.experience__item {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 5px;
+    border-bottom: 1px dotted black;
+}
+
+
+.experience__subtitle{
+    text-decoration: underline;
+    padding: 0 15px;
+}
+
+.experience__time {
+    text-align: right;
+}
+
+/* .pet_projects {}
+.projects__title {}
+.projects__list {}  */
+
+.projects__item {
+    list-style-type: square;
+} 
+
+
+/* .about {}
+.about__title {} */
+.about__subtitle {
+    text-indent: 20px;
+}
+
+.languages__title, .skills__title, .education__title, .projects__title,
+.experience__title, .about__title, .contacts__title {
+    border: 2px solid black;
+    /* width: 30%; */
+    padding-left: 40px; 
+    box-sizing: border-box;
+}
+
