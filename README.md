@@ -1,4 +1,4 @@
-# KSF-3 / My CV 
+# My CV 
 
 ## GH-pages (RU)
 ```
