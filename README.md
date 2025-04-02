@@ -2,10 +2,10 @@
 
 ## GH-pages (RU)
 ```
-https://madridka.github.io/cv-FRONTD-4/cv-ru.html
+https://madridka.github.io/My-CV/cv-ru.html
 ```
 
 ### GH-pages (EN)
 ```
-https://madridka.github.io/cv-FRONTD-4/cv-en.html
+https://madridka.github.io/My-CV/cv-en.html
 ```
