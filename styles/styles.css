@@ -1,3 +1,5 @@
+@import url('/styles/normalize.css');
+
 .resume {
     display: flex;
     width: 100%;
@@ -20,7 +22,13 @@
 }
 
 .resume__name {
-    font-size: 44px;
+    text-transform: uppercase;
+    font-size: 42px;
+}
+
+.resume__position {
+    text-transform: uppercase;
+    font-size: 26px;
 }
 
 .resume__photo {
@@ -38,8 +46,13 @@
     border-radius: 50%;
 }
 
-.resume__contacts, .resume__languages, .resume__skills,
-.education__title, .experience__title, .projects__title, .about__title {
+.resume__contacts,
+.resume__languages,
+.resume__skills,
+.education__title,
+.experience__title,
+.projects__title,
+.about__title {
     font-size: 18px;
     text-align: center;
     margin-bottom: 20px;
@@ -53,7 +66,8 @@
     font-weight: bold;
 }
 
-.skills__item, .languages__item {
+.skills__item,
+.languages__item {
     line-height: 1.8;
 }
 
@@ -64,7 +78,11 @@
     font-size: 1.2em;
 }
 
-.phone, .whatsapp, .telegram, .mail, .github {
+.phone,
+.whatsapp,
+.telegram,
+.mail,
+.github {
     height: 20px;
     width: 20px;
 }
@@ -80,7 +98,19 @@
     line-height: 1.6;
 }
 
-.education__item-flex {
+.education__prof {
+    font-weight: 500;
+    padding-left: 20px;
+}
+
+.experience__post {
+    color: #6b6b6b;
+    /* padding-left: 20px; */
+    font-weight: 700;
+}
+
+.education__item-flex,
+.experience__item-flex {
     display: flex;
     justify-content: space-between;
 }
@@ -95,6 +125,16 @@
     margin: 10px;
     padding: 5px;
     border-bottom: 1px dotted black;
+}
+
+.experience__item:nth-child(2) {
+    margin: 10px;
+    padding: 5px;
+    border-bottom: 1px dotted black;
+}
+
+.experience__desc {
+    padding-left: 10px;
 }
 
 .experience__item:nth-child(2) {
@@ -127,9 +167,10 @@
     border-bottom: 1px dotted black;
 }
 
-.experience__item-flex {
-    display: flex;
-    justify-content: space-between;
+.experience__item:nth-child(7) {
+    margin: 10px;
+    padding: 5px;
+    border-bottom: 1px dotted black;
 }
 
 .projects__item {
@@ -140,23 +181,30 @@
     .resume {
         flex-direction: column;
     }
-    .resume__sidebar, .resume__main {
+
+    .resume__sidebar,
+    .resume__main {
         width: 100%;
         padding: 15px;
     }
 }
+
 @media (max-width: 768px) {
     .resume__photo {
         width: 120px;
         height: 120px;
     }
 }
+
 @media (max-width: 425px) {
     .resume__photo {
         width: 100px;
         height: 100px;
     }
-    .resume__contacts, .resume__languages, .resume__skills {
+
+    .resume__contacts,
+    .resume__languages,
+    .resume__skills {
         padding: 5px;
         font-size: 14px;
     }

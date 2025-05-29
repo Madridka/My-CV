@@ -1,172 +1,203 @@
 <!DOCTYPE html>
 <html lang="ru">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Резюме</title>
-    <link rel="stylesheet" href="styles/styles.css">
-    <link rel="stylesheet" href="styles/normalize.css">
-</head>
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
 
-<body>
+  <body>
     <div class="resume">
-        <aside class="resume__sidebar">
-            <header class="resume__header">
-                <div class="resume__name">СЕРБИН КИРИЛЛ</div>
-                <h3 class="resume__position">FRONTEND-РАЗРАБОТЧИК</h2>
-            </header>
-            <div class="resume__photo">
-                <img src="photo/photo1.png" alt="Мое фото">
+      <aside class="resume__sidebar">
+        <header class="resume__header">
+          <h1 class="resume__name">Сербин Кирилл</h1>
+          <h3 class="resume__position">Frontend-разработчик</h3>
+        </header>
+        <div class="resume__photo">
+          <img src="photo/photo1.png" alt="Фото" />
+        </div>
+
+        <h2 class="resume__skills">Навыки</h2>
+        <div class="skills">
+          <ul class="skills__list">
+            <li class="skills__item">HTML, CSS, JavaScript</li>
+            <li class="skills__item">
+              Vue 2/3, Pinia, VueRouter, REST API, Composition API
+            </li>
+            <li class="skills__item">Система контроля версий Git</li>
+            <li class="skills__item">Jira/Confluence</li>
+            <li class="skills__item">Python (Django)</li>
+            <li class="skills__item">
+              Более 7 лет опыта в нефтедобыче/нефтепереработке
+            </li>
+            <li class="skills__item">Borland Deplhi 7, ABC Pascal</li>
+
+            <li class="skills__item">
+              SQLite (на уровне простых запросов в БД)
+            </li>
+            <li class="skills__item">
+              Adobe Photoshop, Premiere Pro (cъемка/монтаж видео для видеоблога
+              (YouTube/Shorts, TikTok, Instagram reels))
+            </li>
+          </ul>
+        </div>
+
+        <h2 class="resume__languages">Языки</h2>
+        <ul class="languages__list">
+          <li class="languages__item">Русский - родной</li>
+          <li class="languages__item">Английский - B1</li>
+          <li class="languages__item">Немецкий - А1</li>
+        </ul>
+
+        <h2 class="resume__contacts">Контакты</h2>
+        <ul class="contacts__list">
+          <li class="contacts__item">
+            <img src="photo/phone.png" alt="Телефон" class="phone" />
+            <a href="tel:+79234331816">+7-923-433-18-16</a>
+
+            <img src="photo/whatsapp.png" alt="WhatsApp" class="whatsapp" />
+            <a href="https://t.me/madrid_ka"
+              ><img src="photo/telegram.png" alt="Телеграм" class="telegram"
+            /></a>
+          </li>
+          <li class="contacts__item">
+            <img src="photo/mail.png" alt="Почта" class="mail" />
+            <a href="mailto:serbin_kirill1807@mail.ru">
+              serbin_kirill1807@mail.ru
+            </a>
+          </li>
+          <li class="contacts__item">
+            <a href="https://t.me/madrid_ka">
+              <img src="photo/telegram.png" alt="Телеграм" class="telegram" />
+              @madrid_ka</a
+            >
+          </li>
+          <li class="contacts__item">
+            <a href="https://github.com/Madridka">
+              <img src="photo/github.png" alt="Гитхаб" class="github" />
+              /Madridka</a
+            >
+          </li>
+        </ul>
+      </aside>
+
+      <main class="resume__main">
+        <section class="resume__about">
+          <h2 class="about__title">Обо мне</h2>
+          <h3 class="about__subtitle">
+            Я начинающий Frontend-разработчик, имеется опыт коммерческой
+            разработки. Разработал SPA для управления обучением персонала (Vue 3
+            + REST API), увеличив производительность HR-отдела на 60%.
+          </h3>
+        </section>
+
+        <section class="resume__education">
+          <h2 class="education__title">Образование</h2>
+          <article class="education__item">
+            <div class="education__item-flex">
+              <h3 class="education__subtitle">
+                НИ Томский политехнический университет, Томск
+              </h3>
+              <h4 class="education__time">08/12-07/16</h4>
             </div>
-
-            <div class="resume__skills">Навыки</div>
-            <div class="skills">
-                <ul class="skills__list">
-                    <li class="skills__item">HTML, CSS, JavaScript (Vue)</li>
-                    <li class="skills__item">Python (Django)</li>
-                    <li class="skills__item">Borland Deplhi 7, ABC Pascal</li>
-                    <li class="skills__item">Система контроля версий Git</li>
-                    <li class="skills__item">SQLite (на уровне простых запросов в БД)</li>
-                    <li class="skills__item">Adobe Photoshop, Premiere Pro (cъемка/монтаж видео для видеоблога
-                        (YouTube/Shorts, TikTok, Instagram reels))</li>
-                    <li class="skills__item">Опыт работы в нефтегазовой сфере
-                        (более 7 лет в нефтедобыче/нефтепереработке)</li>
-                </ul>
+            <div class="education__prof">
+              Институт природных ресурсов, 
+              <br>кафедра Химической технологии топлива
+              и химической кибернетики
             </div>
+          </article>
+          <article class="education__item">
+            <div class="education__item-flex">
+              <h3 class="education__subtitle">ASAP Education</h3>
+              <h4 class="education__time">02/25 - 07/25</h4>
+            </div>
+            <div class="education__prof">Frontend-разработчик</div>
+          </article>
+        </section>
 
-            <div class="resume__languages">Языки</div>
-            <ul class="languages__list">
-                <li class="languages__item">Русский - navite </li>
-                <li class="languages__item">Английский - B1</li>
-                <li class="languages__item">Немецкий - А1</li>
-            </ul>
+        <section class="resume__experience">
+          <h2 class="experience__title">Опыт работы</h2>
 
-            <div class="resume__contacts">Контакты</div>
-            <ul class="contacts__list">
-                <li class="contacts__item">
-                    <img src="photo/phone.png" alt="Телефон" class="phone"> <a
-                        href="tel:+79234331816">+7-923-433-18-16</a>
-                    <img src="photo/whatsapp.png" alt="WhatsApp" class="whatsapp">
-                    <img src="photo/telegram.png" alt="Телеграм" class="telegram">
-                </li>
-                <li class="contacts__item">
-                    <img src="photo/mail.png" alt="Почта" class="mail">
-                    <a href="mailto:serbin_kirill1807@mail.ru">
-                        serbin_kirill1807@mail.ru
-                    </a>
-                </li>
-                <li class="contacts__item">
-                    <a href="https://t.me/madrid_ka">
-                        <img src="photo/telegram.png" alt="Телеграм" class="telegram"> @madrid_ka</a>
-                </li>
-                <li class="contacts__item">
-                    <a href="https://github.com/Madridka">
-                        <img src="photo/github.png" alt="Гитхаб" class="github">
-                        /Madridka</a>
-                </li>
-            </ul>
-        </aside>
+          <article class="experience__item">
+            <div class="experience__item-flex">
+              <h3 class="experience__subtitle">ASAP Education</h3>
+              <h4 class="experience__time">02/25 - 07/25</h4>
+            </div>
+            <div class="experience__post">Frontend-разработчик</div>
+            <div class="experience__desc">
+              Разработка и реализация SPA-интерфейса на Vue 3 (Composition API),
+              с кастомными компонентами, маршрутизацией и реактивным состоянием
+            </div>
+          </article>
 
-        <main class="resume__main">
-            <section class="resume__about">
-                <div class="about__title">Обо мне</div>
-                <h3 class="about__subtitle">Имеется большой опыт работы в нефтегазовой отрасли (добыча/переработки
-                    нефти).
-                    В 2025 году прошел обучение на профессию Frontend-разработчика в ASAP Education.
-                    Опыт работы на HTML, CSS, языки JavaScript (Vue), Python (Django). </h3>
-            </section>
+          <article class="experience__item">
+            <div class="experience__item-flex">
+              <h3 class="experience__subtitle">Газпромнефть-Восток</h3>
+              <h4 class="experience__time">11/22 - 04/25</h4>
+            </div>
+            <div class="experience__post">Оператор ТУ, 5 разряд</div>
+            <div class="experience__desc">
+              Работа с дожимной насосной станцией, установкой предварительного
+              сброса воды и<br />
+              узлом сепарации газа.
+            </div>
+          </article>
+          <article class="experience__item">
+            <div class="experience__item-flex">
+              <h3 class="experience__subtitle">
+                АО Востокгазпром / АО Газпром добыча Томск
+              </h3>
+              <h4 class="experience__time">09/19 - 08/22</h4>
+            </div>
+            <div class="experience__post">Оператор ТУ, 4 разряд</div>
+            <div class="experience__desc">
+              Работа с аппаратами первичной подготовки нефти.
+            </div>
+          </article>
+          <article class="experience__item">
+            <div class="experience__item-flex">
+              <h3 class="experience__subtitle">Стрежевской НПЗ (Томскнефть)</h3>
+              <h4 class="experience__time">02/18 - 08/19</h4>
+            </div>
+            <div class="experience__post">Оператор ТУ, 4 разряд</div>
+            <div class="experience__desc">
+              Контроль и ведение процесса ректификации (получение дизельного
+              топлива).
+            </div>
+          </article>
+        </section>
 
-            <section class="resume__education">
-                <div class="education__title">Образование</div>
-                <article class="education__item">
-                    <div class="education__item-flex">
-                        <h3 class="education__subtitle">НИ Томский политехнический университет, Томск</h3>
-                        <h4 class="education__time">2012-2016</h4>
-                    </div>
-                    <dt class="education_prof">Институт природных ресурсов, кафедра Химической технологии
-                        топлива и химической кибернетики</dt>
-                </article>
-                <article class="education__item">
-                    <div class="education__item-flex">
-                        <h3 class="education__subtitle">ASAP Education</h3>
-                        <h4 class="education__time">2025</h4>
-                    </div>
-                    <dt class="education_prof">Frontend-разработчик</dt>
-                </article>
-            </section>
+        <section class="resume__projects">
+          <h2 class="projects__title">Pet-проекты</h2>
+          <ul class="projects__list">
+            <li class="projects__item">
+              <a href="https://github.com/Madridka/Django_webbooks">
+                Проект на Django - web-приложение "Мир книг"
+                <img src="photo/github.png" alt="Гитхаб" class="github"
+              /></a>
+            </li>
 
-            <section class="resume__experience">
-                <div class="experience__title">Опыт работы</div>
-                <article class="experience__item">
-                    <div class="experience__item-flex">
-                        <h3 class="experience__subtitle">Газпромнефть-Восток</h3>
-                        <h4 class="experience__time">11.2022 - 04.2025</h4>
-                    </div>
-                    <dt class="experience__post">Оператор ТУ</dt>
-                    <dd class="experience__disc">Работа с установкой ДНС с УПСВ, УСГ</dd>
-                </article>
-                <article class="experience__item">
-                    <div class="experience__item-flex">
-                        <h3 class="experience__subtitle"> АО Востокгазпром / АО Газпром добыча Томск</h3>
-                        <h4 class="experience__time">09.2019 - 08.2022</h4>
-                    </div>
-                    <dt class="experience__post">Оператор ТУ</dt>
-                    <dd class="experience__disc">Работа с аппаратами установки подготовки нефти.</dd>
-                </article>
-                <article class="experience__item">
-                    <div class="experience__item-flex">
-                        <h3 class="experience__subtitle">Стрежевской НПЗ (Томскнефть)</h3>
-                        <h4 class="experience__time">02.2018 - 08.2019</h4>
-                    </div>
-                    <dt class="experience__post">Оператор ТУ</dt>
-                    <dd class="experience__disc">Контроль и ведение процесса ректификации (получение диз. топлива).</dd>
-                </article>
-                <article class="experience__item">
-                    <div class="experience__item-flex">
-                        <h3 class="experience__subtitle">Газпромнефть (Омский НПЗ)</h3>
-                        <h4 class="experience__time">07.2016 - 08.2016</h4>
-                    </div>
-                    <dt class="experience__post">Оператор ТУ</dt>
-                    <dd class="experience__disc">Производственная практика.</dd>
-                </article>
-                <article class="experience__item">
-                    <div class="experience__item-flex">
-                        <h3 class="experience__subtitle">Роснефть-Юганскнефтегаз</h3>
-                        <h4 class="experience__time">08.2015</h4>
-                    </div>
-                    <dt class="experience__post">Оператор ТУ</dt>
-                    <dd class="experience__disc">Производственная (преддипломная) практика.</dd>
-                </article>
-            </section>
+            <li class="projects__item">
+              <a href="https://github.com/Madridka/django_film">
+                Проект на Django. КиНаходка - сервис по совету фильмов
+                <img src="photo/github.png" alt="Гитхаб" class="github"
+              /></a>
+            </li>
 
-            <section class="resume__projects">
-                <div class="projects__title">Pet-проекты</div>
-                <ul class="projects__list">
-                    <li class="projects__item">
-                        <a href="https://github.com/Madridka/Django_webbooks">
-                            Проект на Django - web-приложение "Мир книг" <img src="photo/github.png" alt="Гитхаб"
-                                class="github"></a>
-                    </li>
-
-                    <li class="projects__item">
-                        <a href="https://github.com/Madridka/django_film">
-                            Проект на Django. КиНаходка - сервис по совету фильмов
-                            <img src="photo/github.png" alt="Гитхаб" class="github"></a>
-                    </li>
-
-                    <li class="projects__item">
-                        <a href="https://github.com/Madridka/TG_bot_benzin">
-                            Бот в Телеграм для расчета расхода бензина (работа с БД) <img src="photo/github.png"
-                                alt="Гитхаб" class="github"></a>
-                    </li>
-                    <li class="projects__item">Нейрокомментинг постов в Телеграм [Python (telethon + asyncio + API
-                        ChatGPT)]</li>
-                    <li class="projects__item">Авторепостинг постов в Телеграм [Python (telethon + asyncio)]</li>
-                </ul>
-            </section>
-        </main>
+            <li class="projects__item">
+              <a href="https://github.com/Madridka/TG_bot_benzin">
+                Бот в Телеграм для расчета расхода бензина (работа с БД)
+                <img src="photo/github.png" alt="Гитхаб" class="github"
+              /></a>
+            </li>
+            <li class="projects__item">
+              Нейрокомментинг, авторепостинг постов в Телеграм [Python (telethon
+              + asyncio + API ChatGPT)]
+            </li>
+          </ul>
+        </section>
+      </main>
     </div>
-</body>
-
+  </body>
 </html>
