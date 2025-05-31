@@ -12,7 +12,6 @@
     width: 30%;
     background: #ccc;
     padding: 25px;
-    /* text-align: center; */
     box-sizing: border-box;
 }
 
@@ -105,7 +104,6 @@
 
 .experience__post {
     color: #6b6b6b;
-    /* padding-left: 20px; */
     font-weight: 700;
 }
 
