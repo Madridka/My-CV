@@ -1,11 +1,6 @@
-# My CV 
+# Serbin Kirill
+## Frontend-developer
 
-## GH-pages (RU)
-```
-https://madridka.github.io/My-CV/cv-ru.html
-```
+### [Мое резюме на GitHub Pages (RU)] (https://madridka.github.io/My-CV/cv-ru.html)
 
-### GH-pages (EN)
-```
-https://madridka.github.io/My-CV/cv-en.html
-```
+### [My CV GitHub Pages (EN)] (https://madridka.github.io/My-CV/cv-en.html)
