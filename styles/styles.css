@@ -1,5 +1,3 @@
-@import url('normalize.css');
-
 .resume {
     display: flex;
     width: 100%;
@@ -74,7 +72,7 @@
     list-style-type: none;
     margin-left: -20px;
     line-height: 2.5;
-    font-size: 1.2em;
+    font-size: 18px;
 }
 
 .phone,
