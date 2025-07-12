@@ -17,5 +17,5 @@ Frontend-разработчик с опытом миграции и разраб
 ---
 
 ## 💼 Полное резюме
-- [Мое полное резюме (RU)](https://madridka.github.io/My-CV/cv-ru.html)
-- [My full CV (EN)](https://madridka.github.io/My-CV/cv-en.html)
+- [Мое полное резюме (RU)](https://madridka.github.io/My_CV/cv-ru.html)
+- [My full CV (EN)](https://madridka.github.io/My_CV/cv-en.html)
